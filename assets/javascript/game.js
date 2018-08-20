@@ -27,11 +27,11 @@ if (playerGuess === computerGuess) {
     document.getElementById("win").innerHTML=wins;
     console.log(wins);
 //player's lives and reduces when player does not guess right
-} else(playerGuess!== computerGuess){
+} else(playerGuess!== computerGuess)
     guessLeft--;
     document.getElementsById("countdown").innerHTML=guessLeft;
     console.log(guessLeft);
-}
+
 //when player is out of guesses they lose and new letter is chosen
 if (guessLeft = 0) {
     losses++;
